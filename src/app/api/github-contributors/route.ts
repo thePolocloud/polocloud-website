@@ -18,9 +18,9 @@ export async function GET(request: NextRequest) {
             {
                 login: 'HttpMarco',
                 id: 1,
-                avatar_url: 'https://github.com/HttpMarco.png',
+                avatar_url: 'https://github.com/thepolocloud.png',
                 contributions: 156,
-                html_url: 'https://github.com/HttpMarco',
+                html_url: 'https://github.com/thePolocloud',
                 type: 'User'
             }
         ];
