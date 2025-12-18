@@ -23,7 +23,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.12",
     "fumadocs-core": "15.6.6",
-    "fumadocs-mdx": "11.7.1",
+    "fumadocs-mdx": "14.1.1",
     "fumadocs-ui": "15.6.6",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.526.0",
