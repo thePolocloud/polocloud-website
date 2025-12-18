@@ -21,7 +21,7 @@ export function HeroActions({ isVisible }: HeroActionsProps) {
                 <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link
-                href="https://github.com/HttpMarco/polocloud"
+                href="https://github.com/thePolocloud/polocloud"
                 className="group bg-card/50 hover:bg-card border border-border/50 px-4 sm:px-6 md:px-8 py-2.5 sm:py-3 rounded-xl font-semibold text-sm sm:text-base md:text-lg transition-all duration-300 backdrop-blur-sm shadow-lg hover:shadow-xl flex items-center justify-center gap-2 sm:gap-3 relative z-10"
             >
                 <Github className="w-4 h-4 sm:w-5 sm:h-5" />

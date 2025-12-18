@@ -12,7 +12,7 @@ export function FooterLinks() {
 
     const documentationLinks = [
         { href: '/download', label: 'Download', icon: BookOpen },
-        { href: 'https://github.com/HttpMarco/polocloud', label: 'GitHub Repository', icon: ExternalLink, external: true },
+        { href: 'https://github.com/thePolocloud/polocloud', label: 'GitHub Repository', icon: ExternalLink, external: true },
         { href: '/roadmap', label: 'Roadmap', icon: Map },
         { href: '/changelog', label: 'Changelog', icon: FileText }
     ];

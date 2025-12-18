@@ -262,7 +262,7 @@ export default async function ChangelogPage({ params }: { params: Promise<{ slug
 
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">
                   <a
-                    href="https://github.com/HttpMarco/polocloud/releases"
+                    href="https://github.com/thePolocloud/polocloud/releases"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 bg-primary text-primary-foreground font-medium px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors text-sm"

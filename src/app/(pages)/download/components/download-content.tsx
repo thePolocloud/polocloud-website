@@ -54,7 +54,7 @@ async function getGitHubReleases(): Promise<Release[]> {
       return JSON.parse(cached);
     }
 
-    const response = await fetch('https://api.github.com/repos/HttpMarco/polocloud/releases');
+    const response = await fetch('https://api.github.com/repos/thePolocloud/polocloud/releases');
     if (!response.ok) {
       throw new Error('Failed to fetch releases');
     }
@@ -179,7 +179,7 @@ export function DownloadContent() {
               <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2">Failed to load releases</h3>
               <p className="text-sm sm:text-base text-muted-foreground mb-3 sm:mb-4">{error}</p>
               <a
-                href="https://github.com/HttpMarco/polocloud/releases"
+                href="https://github.com/thePolocloud/polocloud/releases"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors text-sm"

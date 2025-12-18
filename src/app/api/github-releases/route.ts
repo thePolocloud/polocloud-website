@@ -8,7 +8,7 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ error: 'GitHub token not configured' }, { status: 500 });
     }
 
-    const response = await fetch('https://api.github.com/repos/HttpMarco/polocloud/releases/latest', {
+    const response = await fetch('https://api.github.com/repos/thePolocloud/polocloud/releases/latest', {
       headers: {
         'Authorization': `token ${githubToken}`,
         'Accept': 'application/vnd.github.v3+json',
