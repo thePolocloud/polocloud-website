@@ -61,7 +61,7 @@ const REFRESH_OFFSETS = {
 };
 
 const GITHUB_API_BASE = 'https://api.github.com';
-const REPO_OWNER = 'HttpMarco';
+const REPO_OWNER = 'thePolocloud';
 const REPO_NAME = 'polocloud';
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
